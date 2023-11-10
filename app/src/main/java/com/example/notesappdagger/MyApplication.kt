@@ -15,6 +15,7 @@ open class MyApplication : Application(){
     open fun initializeComponent(): AppComponent {
         // Creates an instance of AppComponent using its Factory constructor
         // We pass the applicationContext that will be used as Context in the graph
+        dfgdfgdfgdg
         return DaggerAppComponent.factory().create(applicationContext)
     }
 }
